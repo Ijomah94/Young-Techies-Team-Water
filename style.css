@@ -1,0 +1,1523 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+header {
+    display: flex;
+    background: black;
+    color: white;
+    align-items: center;
+    width: 100%;
+    gap: 20rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    gap: 10px;
+    width: fit-content;
+}
+
+
+header nav {
+    position: relative;
+    
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+header nav ul button {
+    background: red; 
+    padding: 0.3rem; 
+    border: none; 
+    height: 35px; 
+    color: white;
+    border-radius: 5px;
+    transition: all 1.2s ease-in-out;
+}
+
+header nav ul button:hover {
+    background: yellow;
+    color: black;
+}
+
+header nav ul li {
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+header nav ul li a{
+    color: white;
+    width: 120px;
+    height: 50px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    transition: all 1.5s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background: yellow;
+    color: black;
+}
+
+button:hover {
+    background: darkorange;
+    color: black;
+}
+
+.first {
+    background: white;
+    width: 100%;
+    height: 45rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.first .top-container {
+    width: 80%;
+    display: flex;
+    gap: 5rem;
+    padding: 2rem 0 0 2rem;
+    margin-left: 5rem;
+    height: 70%;
+}
+
+.first .top-container button {
+    background: red; 
+    padding: 0.3rem; 
+    border: none; 
+    height: 35px; 
+    border-radius: 5px; 
+    width: 150px; 
+    color: white;
+    transition: all 1.2s ease-in-out;
+}
+
+.first .top-container button:hover{
+    background: yellow;
+    color: black;
+}
+
+.first .top-container .first-textbox h2 {
+    font-size: 3rem;
+}
+
+.first .top-container .first-textbox p {
+    font-size: 1.5rem;
+    word-spacing: 5px;
+    width: 80%;
+}
+
+.first .top-container .first-textbox button {
+    margin-top: 3.5rem;
+    box-shadow: 0 10px 10px 0 black;
+}
+
+
+.first .top-container img {
+    width: 50%;
+    height: 63vh;
+}
+
+.first .bottom-container {
+    box-shadow: 0 0.9rem 0.9rem 0 black;
+    width: 95%;
+    margin-left: 2.5rem;
+    padding: 1.5rem;
+    position: relative;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.first .bottom-container .form-header {
+    color: blue;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -1.05rem;
+}
+
+.first .bottom-container form {
+    width: 85%;
+    display: flex;
+    position: relative;
+    gap: 7rem;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.first .bottom-container form input {
+    background: #eee;
+    color: rgb(146, 143, 143);
+    padding-left: 1%;
+    border: none;
+    width: 550px;
+    height: 50px;
+    outline: none;
+    font-weight: 900;
+    border-bottom: 2px solid #14805f;
+}
+
+.first .bottom-container form button {
+    background: black;
+    padding-left: 1%; 
+    color: white; 
+    width: 170px; 
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    transition: all 1.2s ease-in-out;
+}
+
+.first .bottom-container form button:hover {
+    background: yellow;
+    color: black;
+}
+
+.About-us {
+    position: relative;
+    top: 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45rem;
+}
+
+.About-us .Abt-us-first-box {
+    position: relative;
+    top: 2%;
+    width: 100%;
+}
+
+.About-us .Abt-us-first-box h2 {
+    font-size: 3rem;
+    padding: 2px;
+    width: 100%;
+    padding: 0 1.5rem 0 1.5rem;
+    display: flex;
+    position: relative;
+    left: 3%;
+}
+
+.About-us .Abt-us-first-box p {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.About-us .Abt-us-second-box {
+    display: flex;
+    position: relative;
+    top: 5%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.About-us .Abt-us-second-box img {
+    width: 50%;
+    height: 50vh;
+}
+
+.About-us .Abt-us-second-box p {
+    position: relative;
+    left: 2%;
+    font-size: 1.5rem;
+}
+
+
+.Programs {
+    width: 100%;
+    background: rgba(164, 233, 201, 0.6);
+    height: 120vh;
+}
+
+.Programs .Programs-box {
+    display: flex;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.Programs  h2 {
+    text-align: left;
+    font-size: 3rem;
+    margin-left: 6%;
+}
+
+.Programs .left-content h3 {
+    background: rgb(70, 241, 219);
+    width: 45%;
+    padding: 0.6rem;
+    color: rgb(20, 20, 20);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 black;
+    margin-top: -5%;
+}
+
+.Programs p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 1%;
+}
+
+.Programs .left-content {
+    margin-left: 5%;
+}
+
+.Programs .left-content ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+.Programs .left-content ul li {
+    margin-top: 5%;
+    width: fit-content;
+}
+
+.Programs .left-content span {
+   font-weight: 700;
+   font-size: 1.1rem;
+   position: relative;
+   top: 0.9rem;
+}
+
+#user-btn{
+    color: black;
+    margin-right: 2px;
+}
+
+.Programs .right-content {
+    margin-left: 2%;
+    position: relative;
+    right: 5%;
+    margin-top: 15.5%;
+}
+
+.Programs .right-content h3 {
+    background: rgb(27, 12, 114);
+    width: 45%;
+    padding: 0.6rem;
+    color: rgb(233, 179, 110);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 black;
+}
+
+.Programs .right-content ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+.Programs .right-content ul li {
+    margin-top: 5%;
+}
+
+.Programs .middle-content img {
+    position: relative;
+    top: -10%;
+    height: 85vh;
+    margin-left: 5%;
+}
+
+.Programs .bottom-content {
+    margin-left: 5%;
+    position: relative;
+    top: -12%;
+}
+
+.Programs .bottom-content h3 {
+    background: rgb(70, 241, 219);
+    width: 15%;
+    padding: 0.6rem;
+    color: rgb(20, 20, 20);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 black;
+}
+
+.Programs .bottom-content p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.About-the-intructor {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65vh;
+    gap: 3rem;
+    padding: 10%;
+}
+
+.About-the-intructor img {
+    width: 300px; 
+    height: 250px; 
+    object-fit: contain; 
+    position: absolute;
+    left: 19%;
+    top: 25%;
+}
+
+.About-the-intructor .blue-circle {
+    background: blue;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: -10%;
+    left: -1.5%;
+}
+
+.About-the-intructor h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+    margin-top: 10%;
+}
+
+.About-the-intructor p {
+    font-size: 1.5rem;
+}
+
+.Testimonial {
+    background: linear-gradient(To bottom left, rgb(113, 204, 240) 5%,rgb(238, 242, 243) 5%, rgb(186, 220, 240) 70%,rgb(238, 242, 243) 5%,rgb(186, 220, 240)5%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    gap: 3rem;
+    padding: 5%;
+}
+
+.Testimonial h3 {
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+.Testimonial p {
+    font-size: 1.5rem;
+}
+
+.Testimonial #user {
+    position: relative;
+    top: -12%;
+}
+
+.Contact-us {
+    display: flex;
+    flex-direction: column;
+    background: rgb(106, 220, 240);
+    position: relative;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.Contact-us h2 {
+    margin-top: 1%;
+}
+
+.Contact-us #form-1 {
+    display: flex;
+    position: relative;
+    top: 2%;
+    width: 100%;
+}
+
+.Contact-us #form-1 input {
+    margin-top: 2%;
+    margin-left: 5%;
+    padding: 1%;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 40%;
+    background: transparent;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+.Contact-us .form-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15%;
+    width: 100%;
+}
+
+.Contact-us .form-2 input {
+    margin-top: 2%;
+    margin-left: 5%;
+    padding: 1%;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 90%;
+    background: transparent;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: black;
+    padding: 1%;
+}
+
+footer .social-links {
+    display: flex;
+    margin-right: 5%;
+    gap: 10px;
+}
+
+@media (max-width:768px) {
+    header .logo {
+        width: 450px;
+        position: relative;
+        left: -70px;
+    }
+
+    header .logo img {
+        width: 55px;
+        
+    }
+
+    header .logo h3 {
+        font-size: 17px;
+        width: 120px;
+        margin-left: -10px;
+    }
+
+    header nav {
+        gap: 20px;
+        width: 320px;
+        position: relative;
+        left: -405px;
+        font-size: 13px;
+        top: -13px;
+    }
+
+    header nav ul{
+        width: 5%;
+        gap: 30px;
+    }
+
+    header nav ul li {
+        padding: 18px;
+        width: 30px;
+    }
+
+    header nav ul li:nth-child(3) {
+        margin-right: 30px;
+    }
+
+    header nav ul li:nth-child(4) {
+        margin-right: 40px;
+    }
+
+    header nav ul li:nth-child(5) {
+        margin-right: 30px;
+    }
+
+    header nav ul button {
+        font-size: 10px;
+        width: 68px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -15px;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    } 
+
+    .first .top-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 0 0 2rem;
+        margin-left: 10px;
+    }
+
+    .first .top-container .first-textbox {
+        width: 90%;
+    }
+
+    .first .top-container .first-textbox h2 {
+        font-size: 30px;
+    }
+
+    .first .top-container .first-textbox p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .first .top-container button { 
+        padding: 15px; 
+        height: 20px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px; 
+        margin-top: -90px;
+        position: relative;
+        top: -35px;
+    }
+
+    .first .top-container img {
+        width: 85%;
+        height: 55vh;
+        position: relative;
+        top: -45px;
+    }
+
+    .first .bottom-container {
+        width: 95%;
+        margin-left: 10px;
+        padding: 1.5rem;
+        position: relative;
+        top: -20px;
+    }
+
+    .first .bottom-container form {
+        width: 740px;
+        display: flex;
+        position: relative;
+        gap: 10px;
+        margin-left: 5px;
+        margin-top: 1%;
+    }
+
+    .first .bottom-container form input {
+        padding-left: 6px;
+        padding-bottom: 0;
+        width: 280px;
+        font-size: 10px;
+        height: 50px;
+    }
+
+    .first .bottom-container form button {
+        padding-left: 1%; 
+        width: 100px; 
+        height: 40px;
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    .About-us {
+        position: relative;
+        top: 0;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 35rem;
+    }
+    
+    .About-us .Abt-us-first-box {
+        position: relative;
+        top: -5rem;
+        width: 100%;
+    }
+    
+    .About-us .Abt-us-first-box h2 {
+        font-size: 2.0rem;
+        padding: 2px;
+        width: 100%;
+        padding: 0 1.5rem 0 1.5rem;
+        display: flex;
+        position: relative;
+        left: 3%;
+    }
+    
+    .About-us .Abt-us-first-box p {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .About-us .Abt-us-second-box {
+        display: flex;
+        position: relative;
+        top: -40px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .About-us .Abt-us-second-box img {
+        width: 50%;
+        height: 50vh;
+    }
+    
+    .About-us .Abt-us-second-box p {
+        position: relative;
+        left: 2%;
+        font-size: 20px;
+    }
+
+    .Programs {
+        width: 100%;
+        height: 140vh;
+    }
+
+    .Programs  h2 {
+        font-size: 2rem;
+    }
+
+    .Programs .left-content h3 {
+        width: 40%;
+        margin-top: -5%;
+    }
+
+    .Programs .left-content ul {
+        margin-top: 2%;
+        font-size: 15px;
+    }
+
+    .Programs .right-content h3 {
+        width: 57%;
+        padding: 0.6rem;
+    }
+
+    .Programs .right-content {
+        top: 25px;
+    }
+    
+    .Programs .right-content ul {
+        margin-top: 2%;
+        font-size: 15px;
+    }
+
+    .Programs .middle-content img {
+        top: 3%;
+        height: 77vh;
+    }
+
+    .Programs .bottom-content {
+        top: 3%;
+    }
+    
+    .Programs .bottom-content h3 {
+        background: rgb(70, 241, 219);
+        width: 25%;
+        padding: 0.4rem;
+        color: rgb(20, 20, 20);
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 0 black;
+    }
+    
+    .Programs .bottom-content p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .About-the-intructor {
+        width: 100%;
+        height: 110vh;
+        gap: 3rem;
+    }
+    
+    .About-the-intructor img {
+        width: 250px; 
+        height: 200px; 
+        top: 25%;
+        left: 40px;
+    }
+    
+    .About-the-intructor .blue-circle {
+        width: 200px;
+        height: 200px;
+        top: -10%;
+        left: -1.5%;
+    }
+    
+    .About-the-intructor h3 {
+        font-size: 1.5rem;
+        margin-top: 10%;
+    }
+    
+    .About-the-intructor p {
+        font-size: 18px;
+        width: 90%;
+        line-height: 17px;
+    }
+
+    .Testimonial {
+        width: 100%;
+        height: 75vh;
+        gap: 3rem;
+        padding: 5%;
+    }
+    
+    .Testimonial h3 {
+        margin-bottom: 2%;
+        font-size: 2rem;
+        position: relative;
+        top: 25px;
+    }
+    
+    .Testimonial p {
+        font-size: 20px;
+        position: relative;
+        top: 25px;
+    }
+
+    .Testimonial img {
+        width: 100px;
+    }
+    
+    .Testimonial #user {
+        top: -18%;
+    }
+
+    .Contact-us {
+        height: 90vh;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:480px) {
+    header .logo {
+        width: 150px;
+        position: relative;
+        left: -90px;
+    }
+
+    header .logo img {
+        width: 45px;
+        
+    }
+
+    header .logo h3 {
+        font-size: 12px;
+        width: 95px;
+        margin-left: -10px;
+    }
+
+    header nav {
+        gap: 10px;
+        width: 370px;
+        position: relative;
+        left: -445px;
+        font-size: 8px;
+        top: -11px;
+    }
+
+    header nav ul{
+        width: 5%;
+        gap: 20px;
+    }
+
+    header nav ul li {
+        padding: 18px;
+        width: 30px;
+    }
+
+    header nav ul li:nth-child(4) {
+        margin-right: 10px;
+    }
+
+    header nav ul button {
+        font-size: 5px;
+        width: 38px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -15px;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+
+    .first .top-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 0 0 2rem;
+        margin-left: 10px;
+    }
+
+    .first .top-container .first-textbox h2 {
+        font-size: 30px;
+    }
+
+    .first .top-container .first-textbox p {
+        font-size: 20px;
+    }
+
+    .first .top-container button { 
+        padding: 15px; 
+        height: 20px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px; 
+        margin-top: -90px;
+        position: relative;
+        top: -35px;
+    }
+
+    .first .top-container img {
+        width: 85%;
+        height: 13vh;
+        position: relative;
+        top: -45px;
+    }
+
+    .first .bottom-container {
+        width: 95%;
+        margin-left: 10px;
+        padding: 1.5rem;
+    }
+
+    .first .bottom-container form {
+        width: 440px;
+        display: flex;
+        position: relative;
+        gap: 10px;
+        margin-left: 5px;
+        margin-top: 1%;
+    }
+
+    .first .bottom-container form input {
+        padding-left: 6px;
+        padding-bottom: 0;
+        width: 150px;
+        font-size: 10px;
+        height: 50px;
+    }
+
+    .first .bottom-container form button {
+        padding-left: 1%; 
+        width: 100px; 
+        height: 40px;
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    .About-us {
+        top: 85px;
+        height: 28vh;
+        padding-bottom: 7px;
+    }
+
+    .About-us .Abt-us-first-box {
+        position: relative;
+        top: -20%;
+        width: 100%;
+    }
+    
+    .About-us .Abt-us-first-box h2 {
+        font-size: 2.0rem;
+        width: 100%;
+        padding: 0 1.5rem 0 1.5rem;
+        display: flex;
+        position: relative;
+        left: 3%;
+    }
+
+    .About-us .Abt-us-second-box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -17%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .About-us .Abt-us-second-box img {
+        width: 80%;
+        height: 200px;
+    }
+    
+    .About-us .Abt-us-second-box p {
+        position: relative;
+        left: 2%;
+        font-size: 15px;
+    }
+
+    .Programs {
+        position: relative;
+        top: 35px;
+        width: 100%;
+        background: rgba(164, 233, 201, 0.6);
+        height: 50vh;
+    }
+    
+    .Programs .Programs-box {
+        display: flex;
+        gap: 5%;
+        margin-top: 5%;
+    }
+    
+    .Programs  h2 {
+        text-align: left;
+        font-size: 25px;
+        margin-left: 6%;
+    }
+    
+    .Programs .left-content h3 {
+        background: rgb(70, 241, 219);
+        width: 110px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6rem;
+        color: rgb(20, 20, 20);
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 0 black;
+        margin-top: -5%;
+        font-size: 20px;
+        position: relative;
+        top: -20px;
+    }
+    
+    .Programs p {
+        font-weight: 600;
+        font-size: 17px;
+        margin-top: 1%;
+    }
+    
+    .Programs .left-content {
+        margin-left: 5%;
+        margin-top: 25px;
+    }
+    
+    .Programs .left-content ul {
+        margin-top: 2%;
+        font-size: 16px;
+    }
+    
+    .Programs .left-content ul li {
+        margin-top: 5%;
+        width: fit-content;
+    }
+    
+    .Programs .left-content span {
+       font-weight: 700;
+       font-size: 20px;
+       position: relative;
+       top: 0.9rem;
+    }
+    
+    #user-btn{
+        color: black;
+        margin-right: 2px;
+    }
+    
+    .Programs .right-content {
+        margin-left: 2%;
+        position: relative;
+        right: 5%;
+        margin-top: 280px;
+    }
+    
+    .Programs .right-content h3 {
+        background: rgb(27, 12, 114);
+        width: 110px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6rem;
+        color: rgb(233, 179, 110);
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 0 black;
+        font-size: 12px;
+    }
+    
+    .Programs .right-content ul {
+        margin-top: 3%;
+        font-size: 17px;
+    }
+    
+    .Programs .right-content ul li {
+        margin-top: 5%;
+    }
+    
+    .Programs .middle-content img {
+        position: relative;
+        top: 3%;
+        height: 35vh;
+        margin-left: 5%;
+    }
+    
+    .Programs .bottom-content {
+        margin-left: 5%;
+        position: relative;
+        top: -2%;
+    }
+    
+    .Programs .bottom-content h3 {
+        background: rgb(70, 241, 219);
+        width: 130px;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 0.6rem;
+        color: rgb(20, 20, 20);
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 0 black;
+    }
+    
+    .Programs .bottom-content p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .About-the-intructor {
+        flex-direction: column;
+        gap: 15px;
+        height: 40vh;
+        width: 100%;
+    }
+
+    .About-the-intructor h3 {
+        font-size: 33px;
+        font-weight: 900;
+        position: relative;
+        top: -200px;
+    }
+
+    .About-the-intructor .blue-circle {
+        top: 35px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .About-the-intructor img {
+       width: 300px;
+       height: 200px; 
+       top: 107px;
+    }
+
+    .About-the-intructor p {
+        font-size: 17px;
+        position: relative;
+        top: 35px;
+    }
+
+    .Testimonial {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .Testimonial h3 {
+        font-size: 35px;
+        position: relative;
+        top: -35px;
+    }
+    
+    .Testimonial p {
+        font-size: 18px;
+        position: relative;
+        top: -15px;
+    }
+    
+    .Testimonial #user {
+        top: -2%;
+        font-size: 20px;
+    }
+
+    .Contact-us {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .Contact-us button {
+        margin-top: -25px;
+        width: 65px;
+    }
+}
+
+@media (max-width:320px) {
+    header .logo {
+        width: 100px;
+        position: relative;
+        left: -85px;
+    }
+
+    header .logo img {
+        width: 30px;
+        
+    }
+
+    header .logo h3 {
+        font-size: 7px;
+        width: 55px;
+        margin-left: -10px;
+    }
+
+    header nav {
+        display: flex;
+        gap: 10px;
+        width: 20%;
+    }
+
+    header nav ul{
+        font-size: 4px;
+        margin-left: -410px;
+        width: 10%;
+        gap: 5px;
+        margin-top: 15px;
+        height: 8px;
+    }
+
+    header nav ul li {
+        padding: 2px;
+        width: 30px;
+    }
+
+
+    header nav ul button {
+        font-size: 5px;
+        width: 38px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -15px;
+    }
+
+    .first .top-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 0 0 2rem;
+        margin-left: 10px;
+    }
+
+    .first .top-container .first-textbox h2 {
+        font-size: 25px;
+    }
+
+    .first .top-container .first-textbox p {
+        font-size: 15px;
+    }
+
+    .first .top-container button {
+        background: red; 
+        padding: 10px; 
+        height: 20px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95px; 
+        margin-top: -40px;
+    }
+
+    .first .top-container img {
+        width: 85%;
+        height: 63vh;
+    }
+
+    .first .bottom-container {
+        box-shadow: 0 0.9rem 0.9rem 0 black;
+        width: 300px;
+        margin-left: 6px;
+        padding: 1.5rem;
+    }
+    
+    .first .bottom-container .form-header {
+        color: blue;
+        text-align: center;
+        font-size: 13px;
+        margin-top: -3px;
+        font-weight: 800;
+    }
+    
+    .first .bottom-container form {
+        width: 260px;
+        display: flex;
+        position: relative;
+        gap: 10px;
+        margin-left: 5px;
+        margin-top: 1%;
+    }
+    
+    .first .bottom-container form input {
+        padding-left: 6px;
+        border: none;
+        width: 100px;
+        font-size: 10px;
+        height: 30px;
+        font-weight: 700;
+        border-bottom: 2px solid #14805f;
+    }
+    
+    .first .bottom-container form button {
+        padding-left: 1%; 
+        width: 170px; 
+        height: 20px;
+        font-size: 7px;
+        margin-top: 10px;
+    }
+
+    .About-us {
+        top: 35px;
+        height: 32vh;
+        padding-bottom: 7px;
+    }
+    
+    .About-us .Abt-us-first-box {
+        position: relative;
+        top: -20%;
+        width: 100%;
+    }
+    
+    .About-us .Abt-us-first-box h2 {
+        font-size: 1.5rem;
+        width: 100%;
+        padding: 0 1.5rem 0 1.5rem;
+        display: flex;
+        position: relative;
+        left: 3%;
+    }
+    
+    .About-us .Abt-us-second-box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -17%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .About-us .Abt-us-second-box img {
+        width: 80%;
+        height: 200px;
+    }
+    
+    .About-us .Abt-us-second-box p {
+        position: relative;
+        left: 2%;
+        font-size: 15px;
+    }
+
+    .Programs {
+        position: relative;
+        top: 35px;
+        width: 100%;
+        background: rgba(164, 233, 201, 0.6);
+        height: 50vh;
+    }
+    
+    .Programs .Programs-box {
+        display: flex;
+        gap: 5%;
+        margin-top: 5%;
+    }
+    
+    .Programs  h2 {
+        text-align: left;
+        font-size: 25px;
+        margin-left: 6%;
+    }
+    
+    .Programs .left-content h3 {
+        background: rgb(70, 241, 219);
+        width: 110px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6rem;
+        color: rgb(20, 20, 20);
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 0 black;
+        margin-top: -5%;
+        font-size: 20px;
+    }
+    
+    .Programs p {
+        font-weight: 600;
+        font-size: 17px;
+        margin-top: 1%;
+    }
+    
+    .Programs .left-content {
+        margin-left: 5%;
+        margin-top: 25px;
+    }
+    
+    .Programs .left-content ul {
+        margin-top: 2%;
+        font-size: 15px;
+    }
+    
+    .Programs .left-content ul li {
+        margin-top: 5%;
+        width: fit-content;
+    }
+    
+    .Programs .left-content span {
+       font-weight: 700;
+       font-size: 20px;
+       position: relative;
+       top: 0.9rem;
+    }
+    
+    #user-btn{
+        color: black;
+        margin-right: 2px;
+    }
+    
+    .Programs .right-content {
+        margin-left: 2%;
+        position: relative;
+        right: 5%;
+        margin-top: 280px;
+    }
+    
+    .Programs .right-content h3 {
+        background: rgb(27, 12, 114);
+        width: 110px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6rem;
+        color: rgb(233, 179, 110);
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 0 black;
+        font-size: 12px;
+    }
+    
+    .Programs .right-content ul {
+        margin-top: 3%;
+        font-size: 15px;
+    }
+    
+    .Programs .right-content ul li {
+        margin-top: 5%;
+    }
+    
+    .Programs .middle-content img {
+        position: relative;
+        top: 3%;
+        height: 35vh;
+        margin-left: 5%;
+    }
+    
+    .Programs .bottom-content {
+        margin-left: 5%;
+        position: relative;
+        top: -2%;
+    }
+    
+    .Programs .bottom-content h3 {
+        background: rgb(70, 241, 219);
+        width: 130px;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 0.6rem;
+        color: rgb(20, 20, 20);
+        border-radius: 10px;
+        box-shadow: 0 5px 5px 0 black;
+    }
+    
+    .Programs .bottom-content p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .About-the-intructor {
+        flex-direction: column;
+        gap: 15px;
+        height: 40vh;
+    }
+
+    .About-the-intructor h3 {
+        font-size: 28px;
+        font-weight: 900;
+        position: relative;
+        top: -220px;
+    }
+
+    .About-the-intructor .blue-circle {
+        top: 85px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .About-the-intructor img {
+       width: 200px;
+       height: 150px; 
+       top: 197px;
+    }
+
+    .About-the-intructor p {
+        font-size: 15px;
+        position: relative;
+        top: 45px;
+    }
+
+    .Testimonial {
+        height: 40vh;
+    }
+
+    .Testimonial h3 {
+        font-size: 35px;
+        position: relative;
+        top: -35px;
+    }
+    
+    .Testimonial p {
+        font-size: 18px;
+        position: relative;
+        top: -15px;
+    }
+    
+    .Testimonial #user {
+        top: -2%;
+        font-size: 20px;
+    }
+
+    .Contact-us {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .Contact-us button {
+        margin-top: -15px;
+        width: 65px;
+    }
+}
